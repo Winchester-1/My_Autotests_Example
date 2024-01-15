@@ -41,7 +41,7 @@ describe('a lot of products SPD', () => {
   })
 
   it('waiting for the page to be load', () => {
-    cy.intercept('POST', 'https://www.wiunit.com/wp-content/plugins/ajax/api.php')
+    cy.intercept('POST', 'https://www...................................api.php')
       .as('finalRequest')
 
     cy.wait('@finalRequest')
@@ -209,7 +209,7 @@ describe('a lot of products SPD', () => {
   })
 
   it('waiting for the page to be load', () => {
-    cy.intercept('POST', 'https://www.wiunit.com/wp-content/plugins/ajax/api.php')
+    cy.intercept('POST', 'https://www...................................api.php')
       .as('finalRequest')
 
     cy.wait('@finalRequest')
@@ -237,7 +237,7 @@ describe('a lot of products SPD', () => {
   })
 
   it('waiting for the page to be load', () => {
-    cy.intercept('POST', 'https://www.wiunit.com/wp-content/plugins/ajax/api.php')
+    cy.intercept('POST', 'https://www...................................api.php')
       .as('finalRequest')
 
     cy.wait('@finalRequest')
@@ -537,7 +537,7 @@ describe('a lot of products SPD', () => {
   })
 
   it('waiting for the page to be load', () => {
-    cy.intercept('POST', 'https://www.wiunit.com/wp-content/plugins/ajax/api.php')
+    cy.intercept('POST', 'https://www...................................api.php')
       .as('finalRequest')
 
     cy.wait('@finalRequest')
@@ -551,7 +551,7 @@ describe('a lot of products SPD', () => {
   })
 
   it('waiting for the page to be load', () => {
-    cy.intercept('POST', 'https://www.wiunit.com/wp-content/plugins/ajax/api.php')
+    cy.intercept('POST', 'https://www...................................api.php')
       .as('finalRequest')
 
     cy.wait('@finalRequest')
@@ -789,7 +789,7 @@ describe('a lot of products SPD', () => {
   })
 
   it('waiting for the page to be load', () => {
-    cy.intercept('POST', 'https://www.wiunit.com/wp-content/plugins/ajax/api.php')
+    cy.intercept('POST', 'https://www...................................api.php')
       .as('finalRequest')
 
     cy.wait('@finalRequest')
